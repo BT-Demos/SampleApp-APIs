@@ -30,7 +30,7 @@ jobs:
         with:
           name: SampleApp-APIs
           version: 2.0.0
-          url: docker.io/SampleApp/SampleApp-APIs:1.0.0
+          url: docker.io/SampleApp/SampleApp-APIs:2.0.0
 
   deploy:
     needs: [build]
